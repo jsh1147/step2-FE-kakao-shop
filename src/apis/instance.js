@@ -18,19 +18,19 @@ instance.interceptors.request.use(
   },
   (error) => {
     console.err(`[API REQEST ERROR] ${error}`);
-    console.log(error);
+    console.dir(error);
     return Promise.reject(error);
   }
 );
 
 instance.interceptors.response.use(
   (response) => {
-    console.log(response.data);
+    console.dir(response);
     return response;
   },
   (error) => {
     console.log(`[API RESPONSE ERROR] ${error}`);
-    console.log(error.response.data);
+    console.dir(error);
     return Promise.reject(error);
   }
 );
