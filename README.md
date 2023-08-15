@@ -10,12 +10,11 @@
 
 ## 목차
 
-- <a href="#프로젝트시작" style="color:black">프로젝트 시작</a>
-- <a href="#프로젝트배포" style="color:black">프로젝트 배포</a>
-- <a href="#기술스택" style="color:black">기술스택</a>
-- <a href="#디렉터리구조" style="color:black">디렉터리 구조</a>
-- <a href="#페이지구성" style="color:black">페이지 구성</a>
-- <a href="#프로젝트후기" style="color:black">프로젝트 후기</a>
+- <a href="#프로젝트시작">프로젝트 시작</a>
+- <a href="#프로젝트배포">프로젝트 배포</a>
+- <a href="#기술스택" >기술스택</a>
+- <a href="#디렉터리구조">디렉터리 구조</a>
+- <a href="#페이지구성">페이지 구성</a>
 
 </br>
 
@@ -62,15 +61,13 @@ npm start
 
 ## 기술 스택
 
-<div style="padding:8px; display:flex; justify-content:center; gap:8px;">
-  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
-  <img src="https://img.shields.io/badge/create react app-09D3AC?style=for-the-badge&logo=createreactapp&logoColor=white">
-  <img src="https://img.shields.io/badge/react router-CA4245?style=for-the-badge&logo=react router&logoColor=white">
-  <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white">
-  <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
-  <img src="https://img.shields.io/badge/react query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white">
-  <img src="https://img.shields.io/badge/tailwind css-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
-</div>
+<img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
+<img src="https://img.shields.io/badge/create react app-09D3AC?style=for-the-badge&logo=createreactapp&logoColor=white">
+<img src="https://img.shields.io/badge/react router-CA4245?style=for-the-badge&logo=react router&logoColor=white">
+<img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white">
+<img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
+<img src="https://img.shields.io/badge/react query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white">
+<img src="https://img.shields.io/badge/tailwind css-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
 
 ```
 - npm
@@ -86,7 +83,7 @@ react 앱 라우팅 라이브러리
 상태 관리 라이브러리
 
 - axios
-브라우저와 node.js에서 사용 가능한 Promise 기반 HTTP 클라이언트 라이브러리
+브라우저 & node.js에서의 Promise 기반 HTTP 클라이언트 라이브러리
 
 - react query
 서버 데이터 패칭/캐싱/동기화 라이브러리(tanstack query로 명칭 변경)
@@ -146,6 +143,8 @@ step2-FE-kakao-shop         : 프로젝트 디렉터리
   - 입력 : 이메일, 이름, 비밀번호, 회원가입 버튼
   - 출력 : 로그인 페이지
 
+</br>
+
 ### 로그인 페이지
 
 <img alt="로그인" src="./readme/로그인.png">
@@ -165,6 +164,8 @@ step2-FE-kakao-shop         : 프로젝트 디렉터리
   - 입력 : 이메일, 비밀번호, 로그인/회원가입 버튼
   - 출력 : 메인/회원가입 페이지
 
+</br>
+
 ### 레이아웃
 
 <img alt="레이아웃_로그인" src="./readme/레이아웃_1.png"><br />
@@ -181,6 +182,8 @@ step2-FE-kakao-shop         : 프로젝트 디렉터리
   - 입력 : 메인/장바구니/로그인/로그아웃 버튼
   - 출력 : 메인/장바구니/로그인 페이지
 
+</br>
+
 ### 상품 목록 페이지(메인)
 
 <img alt="상품 목록" src="./readme/상품목록.png">
@@ -196,6 +199,8 @@ step2-FE-kakao-shop         : 프로젝트 디렉터리
 - **인터페이스 요구사항**
   - 입력 : 개별 상품 선택
   - 출력 : 상품 상세 페이지
+
+</br>
 
 ### 상품 상세 페이지
 
@@ -250,6 +255,8 @@ step2-FE-kakao-shop         : 프로젝트 디렉터리
   - 입력 : 장바구니/구매하기 버튼
   - 출력 : 알림, 주문하기 페이지
 
+</br>
+
 ### 장바구니 페이지
 
 <img alt="장바구니_없음" src="./readme/장바구니_1.png"></br>
@@ -267,6 +274,8 @@ step2-FE-kakao-shop         : 프로젝트 디렉터리
 - **인터페이스 요구사항**
   - 입력 : 장바구니 정보 변경(+/-), 주문하기 버튼
   - 출력 : 변경된 장바구니 정보, 소계/합계 가격, 주문하기 페이지
+
+</br>
 
 ### 주문하기 페이지
 
@@ -286,6 +295,8 @@ step2-FE-kakao-shop         : 프로젝트 디렉터리
   - 입력 : 권한 동의(체크 박스), 결제하기 버튼
   - 출력 : 주문 결과 페이지
 
+</br>
+
 ### 주문 결과 페이지
 
 <img alt="주문 결과" src="./readme/주문결과.png">
@@ -298,5 +309,3 @@ step2-FE-kakao-shop         : 프로젝트 디렉터리
 - **인터페이스 요구사항**
   - 입력 : 계속하기 버튼
   - 출력 : 주문 결과, 메인 페이지
-
-<span id="프로젝트후기"></span>
